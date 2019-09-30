@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello world
-        uses: actions/hello-world-javascript-action@v1
+        uses: actions/test-repo@test2
         with:
           who-to-greet: 'person'
         id: hello
